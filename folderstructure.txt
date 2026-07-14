@@ -1,0 +1,48 @@
+portfolio-bruno-diass/
+├── public/
+│   ├── images/
+│   ├── icons/
+│   └── resume.pdf
+│
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   ├── globals.scss
+│   │   └── favicon.ico
+│   │
+│   ├── components/
+│   │   ├── Navbar/
+│   │   │   ├── Navbar.tsx
+│   │   │   └── Navbar.module.scss
+│   │   │
+│   │   ├── Hero/
+│   │   │   ├── Hero.tsx
+│   │   │   └── Hero.module.scss
+│   │   │
+│   │   ├── About/
+│   │   ├── Skills/
+│   │   ├── Projects/
+│   │   ├── Experience/
+│   │   ├── Contact/
+│   │   └── Footer/
+│   │
+│   ├── assets/
+│   │   ├── images/
+│   │   ├── svg/
+│   │   └── fonts/
+│   │
+│   ├── styles/
+│   │   ├── variables.scss
+│   │   ├── mixins.scss
+│   │   ├── animations.scss
+│   │   └── globals.scss
+│   │
+│   ├── lib/
+│   ├── hooks/
+│   ├── types/
+│   └── data/
+│
+├── package.json
+├── tsconfig.json
+└── next.config.ts
