@@ -14,7 +14,9 @@ export default function Navbar() {
         <div className={styles["nav-links"]}>
             <Link href="/" className={styles[pathname === "/" ? "active" : ""]}>Home</Link>
             <Link href="/about" className={styles[pathname === "/about" ? "active" : ""]}>About</Link>
+            <Link href="/skills" className={styles[pathname === "/skills" ? "active" : ""]}>Skills</Link>
             <Link href="/projects" className={styles[pathname === "/projects" ? "active" : ""]}>Projects</Link>
+            <Link href="/experience" className={styles[pathname === "/experience" ? "active" : ""]}>Experience</Link>
             <Link href="/contact" className={styles[pathname === "/contact" ? "active" : ""]}>Contact</Link>
         </div>
     </nav>
