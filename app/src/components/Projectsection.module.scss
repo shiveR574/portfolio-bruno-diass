@@ -1,0 +1,36 @@
+.projectsection-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    border-bottom: 1px solid #cccccc2d;
+
+    .projectsection-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 5%;
+        align-items: center;
+
+        .projectsection-title {
+            display: flex;
+            align-items: center;
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        .projectsection-link {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-size: 20px;
+            color: #7a94dd;
+        }
+
+        .projectsection-link:hover {
+            cursor: pointer;
+            color: #7a94dd59;
+
+        }
+    }
+}
