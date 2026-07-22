@@ -1,0 +1,125 @@
+.herosection-container {
+    width: 100%;
+    height: 800px;
+    background-image: url("/herobackground.png");
+    background-size: cover;
+    background-position: center 58%;
+    background-repeat: no-repeat;
+    
+
+    .herosection-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 90px 80px;
+
+        .herosection-greeting {
+            font-size: 30px;
+            font-weight: 500;
+            color: #7a94dd;
+        }
+
+        .herosection-name {
+            font-size: 58px;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        .herosection-role {
+            font-size: 45px;
+            font-weight: 700;
+            color: #7a94dd;
+        }
+
+        .herosection-description {
+            font-size: 23px;
+            font-weight: 500;
+            color: #ffffff;
+            margin-top: 20px;
+            max-width: 590px;
+        }
+    }
+
+    .herosection-buttons {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 0 120px;
+        gap: 40px;
+        
+
+
+        .button-projects {
+            font-size: 18px;
+            background-color: #7a94dd;
+            border-radius: 6px;
+            padding: 18px 40px;
+            font-weight: 700;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .button-projects:hover{
+            background-color: #7a94ddb9;
+        }
+
+        .button-contact {
+            font-size: 18px;
+            background: #0505053f;;
+            border: 1px solid #cccccc70;
+            border-radius: 6px;
+            padding: 18px 45px;
+            font-weight: 700;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .button-contact:hover{
+            background: rgba(5, 5, 5, 0.459);
+        }
+    }
+
+    .herosection-links{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        padding: 70px 250px;
+
+        .herosection-link-github{
+            color: white;
+        }
+
+        .herosection-link-github:hover{
+            color: rgb(62, 123, 255);
+        }
+
+        .herosection-link-linkedin{
+            color: white;
+        }
+        
+        .herosection-link-linkedin:hover{
+            color: rgb(62, 123, 255);
+        }
+
+        .herosection-link-instagram{
+            color: white;
+        }
+
+        .herosection-link-instagram:hover{
+            color: rgb(62, 123, 255);
+        }
+
+        .herosection-link-email{
+            color: white;
+            width: 40px;
+            height: 40px;
+        }
+
+        .herosection-link-email:hover{
+            color: rgb(62, 123, 255);
+        }
+        
+    }
+}

@@ -18,7 +18,7 @@
         align-items: center;
         gap: 45px;
         font-size: 17px;
-        font-weight: 700;
+        font-weight: 500;
         height: 100%;
 
         a {
@@ -40,19 +40,19 @@
         .nav-button {
         display: flex;
         align-items: center;
-        padding: 8px 25px;
+        padding: 8px 20px;
         background: #0505053f;;
-        border: 2px solid #cccccc2d;
-        box-shadow: 0 4px 12px #cccccc2d;
+        border: 1px solid #cccccc70;
         color: white !important;
         border-radius: 8px;
         text-decoration: none;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 17px;
         transition: background 0.2s ease;
+        margin-left: 35px;
 
         &:hover {
-            background: #05050513;
+            background: #0505050a;
             cursor: pointer;
         }
     }

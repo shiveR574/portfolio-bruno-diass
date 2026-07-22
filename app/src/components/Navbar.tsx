@@ -4,7 +4,7 @@ import Image from "next/image";
 import logo2 from "@/app/src/assets/logo2.svg";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { Download } from "lucide-react";
+import { ArrowDownToLine } from 'lucide-react';
 
 export default function Navbar() {
     const pathname = usePathname();
@@ -26,7 +26,7 @@ export default function Navbar() {
                 link.download = "CVGBrunoDias.pdf";
                 link.click();
             }}
-            >Resume <Download size={16} style={{ marginLeft: "5px" }} />
+            >Resume <ArrowDownToLine size={16} style={{ marginLeft: "8px", color: "lightblue" }} />
             </button>
         </div>
     </nav>
