@@ -1,0 +1,65 @@
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 25px;
+    height: 65px;
+    background: #05050557;
+
+    .footer-icon{
+        width: 50px;
+        height: 60%;
+        object-fit: contain;
+    }
+
+    .footer-text{
+        font-size: 17px;
+        font-weight: 500;
+        color: #f7f7f7;
+    }
+
+    .footer-links{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+
+
+        .footer-link-github{
+            color: white;
+        }
+
+        .footer-link-github:hover{
+            color: rgb(62, 123, 255);
+        }
+
+        .footer-link-linkedin{
+            color: white;
+        }
+        
+        .footer-link-linkedin:hover{
+            color: rgb(62, 123, 255);
+        }
+
+        .footer-link-instagram{
+            color: white;
+        }
+
+        .footer-link-instagram:hover{
+            color: rgb(62, 123, 255);
+        }
+
+        .footer-link-email{
+            color: white;
+            width: 30px;
+            height: 30px;
+        }
+
+        .footer-link-email:hover{
+            color: rgb(62, 123, 255);
+        }
+    }
+
+
+}
