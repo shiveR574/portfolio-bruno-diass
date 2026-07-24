@@ -1,7 +1,7 @@
 "use client";
 import styles from "./Navbar.module.scss";
 import Image from "next/image";
-import logo2 from "@/app/src/assets/logo2.svg";
+import logo2 from "../assets/logo2.svg";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { ArrowDownToLine } from 'lucide-react';

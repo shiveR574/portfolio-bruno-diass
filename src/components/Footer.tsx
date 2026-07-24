@@ -1,6 +1,6 @@
 import styles from "./Footer.module.scss";
 import Image from "next/image";
-import logo2 from "@/app/src/assets/logo2.svg";
+import logo2 from "../assets/logo2.svg"
 import Link  from "next/link";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import { Mail } from "lucide-react";

@@ -1,8 +1,8 @@
 import styles from "./Aboutsection.module.scss";
 import { Laugh } from "lucide-react";
 import Image from "next/image";
-import ranimage from "@/app/src/assets/handcoding.png";
-import ranimage2 from "@/app/src/assets/programming.png";
+import ranimage from "../assets/handcoding.png";
+import ranimage2 from "../assets/programming.png";
 import { GiBrain } from "react-icons/gi";
 import { FaHandshake } from "react-icons/fa";
 import { SiFuturelearn } from "react-icons/si";
