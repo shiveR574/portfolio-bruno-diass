@@ -8,7 +8,7 @@ export default function Skillsectiontailwind() {
     return (
         <section className="flex flex-col w-full h-[290px] border-b border-[#cccccc2d]">
             <h2 className="w-full text-[40px] text-[#f7f7f7] font-bold px-[5%] py-[30px]">
-                Skills TailWind Correct
+                Skills TailWind
             </h2>
             <div className="flex flex-row px-[5%]">
                 <ul className="flex flex-row flex-wrap gap-x-6 gap-y-0">
