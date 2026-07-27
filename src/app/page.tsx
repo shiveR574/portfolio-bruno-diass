@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import Herosection from "../components/Herosection";
 import Aboutsection from "../components/Aboutsection";
 import Skillsection from "../components/Skillsection";
+import Skillsectiontailwind from "../components/Skillsectiontailwind";
+import Skillsectiontailwind2 from "../components/Skillsectiontailwind";
 import Projectsection from "../components/Projectsection";
 import Footer from "../components/Footer";
 import "./page.scss";
@@ -14,6 +16,8 @@ export default function Home() {
       <Herosection />
       <Aboutsection />
       <Skillsection />
+      <Skillsectiontailwind/>
+      <Skillsectiontailwind2/>
       <Projectsection />
       <Footer />
     </>

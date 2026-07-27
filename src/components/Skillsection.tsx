@@ -2,7 +2,6 @@ import styles from "./Skillsection.module.scss";
 import { FaReact } from "react-icons/fa";
 import { SiNextdotjs, SiTypescript, SiJavascript, SiHtml5, SiTailwindcss } from "react-icons/si";
 
-
 export default function Skillsection() {
     return (
         <section className={styles["skillsection-container"]}>
