@@ -11,7 +11,7 @@ export default function Skillsectiontailwindresponsive() {
                 Skills TailWind Responsive
             </h2>
             <div className="flex flex-row px-[5%] pb-6">
-                <ul className="grid grid-cols-2 sm:grid-cols-3 md:flex md:flex-row md:flex-wrap gap-4 md:gap-x-6 md:gap-y-0 w-full">
+                <ul className="grid grid-cols-2 sm:grid-cols-3 md:flex md:flex-row md:flex-wrap gap-4 md:gap-x-6 md:gap-y-6 w-full">
                     <li className={skillItem}>
                         <FaReact className="w-8 h-8 sm:w-10 sm:h-10" style={{ color: "#7a94dd" }} />
                         React
