@@ -1,0 +1,65 @@
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+
+  // vertical line
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0.9rem;
+    top: 0.5rem;
+    bottom: -0.5rem;
+    width: 2px;
+    background: #ddd;
+  }
+}
+
+.item {
+  position: relative;
+  margin-bottom: 2.7rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.iconWrapper {
+  position: absolute;
+  left: -2rem;
+  top: 0.1rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #7a94dd;
+  border: 2px solid #fff;
+
+  &.active {
+    background: #7a94dd;
+    color: #eee;
+  }
+}
+
+.label {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #999;
+  margin: 0 0.5rem 0.2rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 0.5rem 0.3rem;
+}
+
+.text {
+  font-size: 1.05rem;
+  color: #666;
+  margin: 0 0.5rem 0.2rem;
+}
