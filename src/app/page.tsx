@@ -7,6 +7,7 @@ import Skillsectiontailwindresponsive from "../components/Skilltailwindresponsiv
 import Projectsection from "../components/Projectsection";
 import Experiencesection from "../components/Experiencesection";
 import Footer from "../components/Footer";
+import Footertailwind from "../components/Footertailwind";
 import "./page.scss";
 
 export default function Home() {
@@ -19,7 +20,8 @@ export default function Home() {
       <Skillsectiontailwindresponsive/>
       <Projectsection />
       <Experiencesection/>
-      <Footer />
+      <Footertailwind/>
+      {/* <Footer /> */}
     </>
   );
 }
