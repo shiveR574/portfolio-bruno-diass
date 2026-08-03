@@ -12,7 +12,7 @@ export default function Projectsection () {
                 <h2 className="text-2xl sm:text-3xl md:text-[40px] text-[#f7f7f7] font-bold">
                     Projects
                 </h2>
-                <Link href="/projects/" className="flex flex-row items-center justify-center text-sm md:text-lg text-[#f7f7f7] font-bold gap-2">
+                <Link href="/projects/" className="flex flex-row items-center justify-center text-sm md:text-lg text-[#7a94dd] gap-2 hover:text-[#7a94ddb4] hover:cursor-pointer font-bold gap-2">
                     View All Projects <ArrowRight className="w-7 h-7 text-[#7a94dd]"/>
                 </Link>
             </div>
