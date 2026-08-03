@@ -12,12 +12,12 @@ export default function Projectsection () {
                 <h2 className="text-2xl sm:text-3xl md:text-[40px] text-[#f7f7f7] font-bold">
                     Projects
                 </h2>
-                <Link href="/projects/" className="flex flex-row items-center justify-center text-sm md:text-lg text-[#7a94dd] gap-2 hover:text-[#7a94ddb4] hover:cursor-pointer font-bold gap-2">
-                    View All Projects <ArrowRight className="w-7 h-7 text-[#7a94dd]"/>
+                <Link href="/projects/" className="flex flex-row items-center justify-center text-md md:text-xl text-[#7a94dd] font-normal md:gap-2 hover:text-[#7a94ddb4] hover:cursor-pointer font-bold gap-2">
+                    View All Projects <ArrowRight className="w-4 h-4 md:w-6 h-6 text-[#7a94dd]"/>
                 </Link>
             </div>
             <div className="w-full flex flex-row px-[5%] py-[10px] mb-3">
-                <div className="w-[400px] h-[435px] rounded-lg bg-[#e8e5e505]">
+                <div className="md:w-[400px] w-full h-[435px] rounded-lg bg-[#e8e5e505]">
                     <div className="w-full overflow-hidden">
                         <Image src={project1} alt="IMDB" className="w-full h-[185px] rounded-t-lg object-cover object-top"></Image>
                     </div>
@@ -25,7 +25,7 @@ export default function Projectsection () {
                         <div className="text-lg font-bold">
                             IMDB
                         </div>
-                        <p className="w-[350px] py-[20px] text-md font-normal">
+                        <p className="md:w-[350px] w-full py-[20px] text-md font-normal">
                             Project that consisted in trying to be a clone of TMDB/IMDB.
                         </p>
                         <ul className="flex flex-row gap-4">

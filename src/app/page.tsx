@@ -19,7 +19,7 @@ export default function Home() {
       <Aboutsection />
       {/* <Skillsection /> */}
       <Skillsectiontailwindresponsive/>
-      <Projectsection />
+      {/* <Projectsection /> */}
       <Projectsectiontailwind />
       <Experiencesection/>
       <Footertailwind/>
