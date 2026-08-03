@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "../components/Navbar";
 import Herosection from "../components/Herosection";
 import Aboutsection from "../components/Aboutsection";
+import Aboutsectiontailwind from "../components/Aboutsectiontailwind";
 import Skillsection from "../components/Skillsection";
 import Skillsectiontailwindresponsive from "../components/Skilltailwindresponsive";
 import Projectsection from "../components/Projectsection";
@@ -15,8 +16,9 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <Herosection />
-      <Aboutsection />
+      {/* <Herosection /> */}
+      {/* <Aboutsection /> */}
+      <Aboutsectiontailwind />
       {/* <Skillsection /> */}
       <Skillsectiontailwindresponsive/>
       {/* <Projectsection /> */}
