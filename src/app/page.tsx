@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Navbar from "../components/Navbar";
+import Navbartailwind from "../components/Navbartailwind";
 import Herosection from "../components/Herosection";
 import Herosectiontailwind from "../components/Herosectiontailwind";
 import Aboutsection from "../components/Aboutsection";
@@ -17,6 +18,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
+      <Navbartailwind />
       {/* <Herosection /> */}
       <Herosectiontailwind />
       {/* <Aboutsection /> */}
