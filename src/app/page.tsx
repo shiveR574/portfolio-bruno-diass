@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <Herosection />
+      {/* <Herosection /> */}
       <Herosectiontailwind />
       {/* <Aboutsection /> */}
       <Aboutsectiontailwind />
